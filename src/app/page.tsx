@@ -5,13 +5,7 @@ export default function Page() {
     <main className="space-y-4">
       <h1 className="text-xl font-semibold">Vercel AI SDK Fundamentals</h1>
       <p>
-        The following examples aim to showcase the fundamentals behind the
-        Vercel AI SDK. The examples have minimal loading
-        states to remain as simple as possible.
-      </p>
-      <p>
-        The prompt for the first 4 examples (stream/generate text/object) is
-        `Tell me a joke`.
+       Simple examples of vercel AI SDK
       </p>
       <ul className="list-disc list-inside">
         <li>
@@ -41,7 +35,9 @@ export default function Page() {
         <li>
           <Link href="/examples/ui-generate-streamfastapi">enerate Fast API</Link>
         </li>
-        
+        <li>
+          <Link href="/chat-rsc">RSC CHAT</Link>
+        </li>
       </ul>
     </main>
   );
