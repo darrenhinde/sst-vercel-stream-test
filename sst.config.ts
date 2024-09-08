@@ -3,7 +3,7 @@
 export default $config({
   app(input) {
     return {
-      name: "my-ai-app",
+      name: "aws-nextjs",
       removal: input?.stage === "production" ? "retain" : "remove",
       home: "aws",
     };
